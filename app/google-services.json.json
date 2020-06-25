@@ -15,14 +15,6 @@
       },
       "oauth_client": [
         {
-          "client_id": "980900906626-5ctskk3891cb0mpc86h3cmhofgjiskcp.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.blackcoffer",
-            "certificate_hash": "6365755dfddd33e7f4c281a84e849d3e4bd551c8"
-          }
-        },
-        {
           "client_id": "980900906626-bbpneo0e8fivcpeu1kpe7breffsqoq5c.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
