@@ -2,4 +2,19 @@
     <string name="app_name">botnav</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="wlm">welcome</string>
+    <string name="wlminfo">Please login or signup to continue using Helloji</string>
+    <string name="socialline">Enter via social networks</string>
+    <string name="logline">or login with email</string>
+    <string name="loginfo">Please login to continue using Helloji</string>
+    <string name="login_now">Login Now</string>
+    <string name="signupline">or sign up with email</string>
+    <string name="otp_info">Please enter the verification code we sent you.\n It might take a few minute to receive your code</string>
+    <string name="signupinfo">Please signup to continue using Helloji</string>
+    <string name="todo">TODO</string>
+    <string name="email">Email</string>
+    <string name="send_again">send again</string>
+    <string name="default_web_client_id" />
+    <string name="sign_up">Sign Up</string>
+    <string name="didn_t_recieve_the_code">Didn\'t recieve the code?</string>
 </resources>

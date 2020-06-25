@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:id="@+id/navigation_tags"
-        android:icon="@drawable/ic_baseline_account_box_24"
+        android:icon="@drawable/hashtagq"
         android:title="tags"></item>
     <item android:id="@+id/navigation_trending"
-        android:icon="@drawable/ic_baseline_trending_up_24"
+        android:icon="@drawable/popular"
         android:title="trending"></item>
     <item android:id="@+id/navigation_explore"
         android:icon="@drawable/ic_baseline_explore_24"
         android:title="explore"></item>
     <item android:id="@+id/navigation_saved"
-        android:icon="@drawable/ic_baseline_save_alt_24"
+        android:icon="@drawable/heart"
         android:title="saved"></item>
 </menu>

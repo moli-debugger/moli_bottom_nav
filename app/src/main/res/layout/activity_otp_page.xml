@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Otp_page">
+
+    <TextView
+        android:id="@+id/just"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="15dp"
+        android:text="Just a quick security check"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/infoline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/otp_info"
+        android:layout_below="@+id/just"
+        android:layout_marginTop="40dp" />
+
+    <RelativeLayout
+        android:id="@+id/otp_lay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/infoline"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+
+        <EditText
+            android:id="@+id/otp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            />
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Enter Verfication code"
+        android:layout_above="@id/otp_lay"
+        android:layout_marginBottom="-140dp"
+        android:layout_marginLeft="15dp" />
+
+
+    <TextView
+        android:id="@+id/near_sendagin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="79dp"
+        android:text="@string/didn_t_recieve_the_code"
+        android:layout_below="@+id/otp_lay"
+        android:layout_marginTop="40dp" />
+
+    <TextView
+        android:id="@+id/sendagin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/near_sendagin"
+        android:textColor="@color/blue"
+        android:text="@string/send_again"
+        android:layout_below="@+id/otp_lay"
+        android:layout_marginTop="40dp" />
+
+    <Button
+        android:id="@+id/verify_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_below="@id/sendagin"
+        android:layout_marginTop="30dp"
+        android:text="Verify Code"
+        android:background="@drawable/round_btn"
+        android:backgroundTint="#528AAE"
+        android:textColor="@color/white" />
+
+
+</RelativeLayout>
